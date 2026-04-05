@@ -2,6 +2,8 @@
 
 This app is for testing ibxm-hx haxelib - https://github.com/jobf/ibxm-hx
 
+Test it here - http://jobf.github.io/ibxm-hx-test
+
 ## Install dependencies
 
 ```
