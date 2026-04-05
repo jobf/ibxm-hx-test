@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="[mod]play" package="ibxm-hx" version="0.1.1" company="v-v" />
+	
+	<android target-sdk-version="28" />
+	
+	<window width="800" height="450" fps="61" allowHighDPI="false" vsync="true" />
+	<window if="html5||android" width="0" height="0" />
+	
+	<app main="Main" path="bin" file="Main" />
+	
+	<haxelib name="lime" />
+	<haxelib name="peote-view" />
+	<haxelib name="ibxm-hx" /> <!-- version="0.3.0" -->
+	<!-- <haxelib name="format"  /> -->
+	
+	<source path="src" />
+	
+	<!-- use special gl-features for optimization (if supported by opengl-es version) -->
+	<haxedef name="peoteview_uniformbuffers" />
+	<haxedef name="peoteview_instancedrawing" />
+	<haxedef name="peoteview_vertexarrayobjects" />
+
+	<haxeflag name="-dce" value="full" />
+	
+</project>
