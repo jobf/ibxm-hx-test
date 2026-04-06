@@ -12,7 +12,7 @@
 	
 	<haxelib name="lime" />
 	<haxelib name="peote-view" />
-	<haxelib name="ibxm-hx" /> <!-- version="0.3.0" -->
+	<haxelib name="ibxm-hx" /> <!-- version="0.5.0" -->
 	<!-- <haxelib name="format"  /> -->
 	
 	<source path="src" />

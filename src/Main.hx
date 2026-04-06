@@ -96,7 +96,7 @@ class Main extends app.App {
 
 		player.setAudioSource(Replay.getSource());
 		player.samplesProcessed = 0;
-		totalSamples = Replay.calculateSongDuration();
+		totalSamples = Replay.calculateSequenceLength();
 
 		instruments = [
 			for (i in 1...17) {
